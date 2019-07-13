@@ -1,7 +1,7 @@
-function shout(str) {return str.toUpperCase()}
+exports.shout = function shout(str) {return str.toUpperCase()}
 
-function whisper(str) {
+exports.whisper = function whisper(str) {
   return str.toLowerCase()
 }
 
-module.exports = { shout }
+// module.exports = { shout, whisper }
