@@ -1,3 +1,3 @@
-function shout(str) return str.toUpperCase()
+function shout(str) {return str.toUpperCase()}
 
 module.exports = { shout }
