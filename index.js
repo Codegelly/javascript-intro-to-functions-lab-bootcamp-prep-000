@@ -4,4 +4,12 @@ function whisper(str) {
   return str.toLowerCase()
 }
 
-module.exports = { shout, whisper }
+function logShout(str) {
+  console.log(shout(str))
+}
+
+function logWhisper(str) {
+  console.log(whisper(str))
+}
+
+module.exports = { shout, whisper, logShout, logWhisper }
