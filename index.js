@@ -23,4 +23,4 @@ function sayHiToGrandma(str) {
     
 }
 
-// module.exports = { shout, whisper, logShout, logWhisper, sayHiToGrandma }
+module.exports = { shout, whisper, logShout, logWhisper, sayHiToGrandma }
