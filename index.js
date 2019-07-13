@@ -12,4 +12,11 @@ function logWhisper(str) {
   console.log(whisper(str))
 }
 
+function sayHiToGrandma(str) {
+  if (str === whisper(str)) {
+    return "I can't hear you!"
+  }
+    
+}
+
 module.exports = { shout, whisper, logShout, logWhisper }
